@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mbiza.Address.Book.Api", "Mbiza.Address.Book.Api\Mbiza.Address.Book.Api.csproj", "{603A3771-4A38-4B5B-A67D-D55DFA44FA89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mbiza.Address.Book.Api", "Mbiza.Address.Book.Api\Mbiza.Address.Book.Api.csproj", "{603A3771-4A38-4B5B-A67D-D55DFA44FA89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mbiza.Address.Book.Service", "Mbiza.Address.Book.Service\Mbiza.Address.Book.Service.csproj", "{6D21995C-EFE2-48AD-90C0-874212463E55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mbiza.Address.Book.Common", "Mbiza.Address.Book.Common\Mbiza.Address.Book.Common.csproj", "{3C12373E-422F-4698-98BD-ED1AAED523AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mbiza.Address.Book.Data", "Mbiza.Address.Book.Data\Mbiza.Address.Book.Data.csproj", "{FCC41F5C-743B-4E56-8101-5903D30A0782}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{603A3771-4A38-4B5B-A67D-D55DFA44FA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{603A3771-4A38-4B5B-A67D-D55DFA44FA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{603A3771-4A38-4B5B-A67D-D55DFA44FA89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D21995C-EFE2-48AD-90C0-874212463E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D21995C-EFE2-48AD-90C0-874212463E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D21995C-EFE2-48AD-90C0-874212463E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D21995C-EFE2-48AD-90C0-874212463E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C12373E-422F-4698-98BD-ED1AAED523AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C12373E-422F-4698-98BD-ED1AAED523AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C12373E-422F-4698-98BD-ED1AAED523AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C12373E-422F-4698-98BD-ED1AAED523AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCC41F5C-743B-4E56-8101-5903D30A0782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC41F5C-743B-4E56-8101-5903D30A0782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC41F5C-743B-4E56-8101-5903D30A0782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC41F5C-743B-4E56-8101-5903D30A0782}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
